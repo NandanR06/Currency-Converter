@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 20rem;
+    padding: 20px;
+    background-color: rgba(99, 97, 87, 0.679);
+    border-radius: 6px;
+    box-shadow: 3px 1px 16px 1px;
+    ;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    font-size: 18px;
+    height: 2rem;
+    width: 17.5rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid rgba(105, 104, 104, 0.584);
+    text-align: center;
+    background-color: rgba(93, 93, 63, 0.682);
+
+}
+
+.img-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    outline: none;
+    border-radius: 5px;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 28px 0px;
+    color: aliceblue;
+}
+
+button {
+    height: 30px;
+    margin: 2px 2px 2px 0px;
+    width: 280px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(106, 91, 79);
+    border-radius: 5px;
+    border: none;
+    border: 1px splid rgb(166, 144, 144);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.425);
+
+}
+
+button:hover {
+    background-color: rgb(169, 154, 100);
+    color: aliceblue;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Currency Converter</h1>
+            <p>Enter Amount</p>
+            <input type="text" placeholder="Hi!">
+            <div class="currency">
+                <div class="from">
+                    <p>From</p>
+                    <div class="img-selection">
+                        <img src="https://flagsapi.com/IN/shiny/64.png" alt="flag">
+                        <select name="from" id="from1">
+                        </select>
+                    </div>
+                </div>
+                <i class="bi bi-arrow-left-right"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="img-selection">
+                        <img src="https://flagsapi.com/US/shiny/64.png" alt="flag">
+                        <select name="to" id="from2">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <h4>-------------------</h4>
+            <Button type="submit">Get Exchange Rate</Button>
+        </form>
+    </div>
+    <script src="./script/code.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>
