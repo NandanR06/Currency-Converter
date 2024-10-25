@@ -53,9 +53,14 @@ const getval = () => {
         })
 }
 
-btn.addEventListener('click', (event) => {
+
+
+btn.addEventListener('click',  (event) => {
     event.preventDefault();
-    getval();
+    if(event.key === 'Enter')
+      getval();
+    else
+        getval();
 })
 window.addEventListener('load', getval);
 
